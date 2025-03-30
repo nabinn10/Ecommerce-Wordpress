@@ -1,0 +1,16 @@
+{
+  "form_preview.js": "form_preview.js",
+  "post_editor_block.js": "post_editor_block.js",
+  "rich-text.js": "auto/rich-text.js",
+  "rich-text.php": "auto/rich-text.asset.php",
+  "public.js": "public.js",
+  "email_editor.css": "auto/email_editor-rtl.css",
+  "email_editor.js": "auto/email_editor.js",
+  "email_editor.php": "auto/email_editor.asset.php",
+  "powered-by-mailpoet-block.js": "auto/powered-by-mailpoet-block.js",
+  "powered-by-mailpoet-block.php": "auto/powered-by-mailpoet-block.asset.php",
+  "mailpoet.js": "auto/mailpoet.js",
+  "mailpoet.php": "auto/mailpoet.asset.php",
+  "./style-powered-by-mailpoet-block.css": "auto/./style-powered-by-mailpoet-block.css",
+  "powered-by-mailpoet/block.json": "auto/powered-by-mailpoet/block.json"
+}

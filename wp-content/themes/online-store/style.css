@@ -1,0 +1,180 @@
+/*
+ Theme Name:   Online Store
+ Theme URI:    https://themes4wp.com/theme/online-store/
+ Description:  Online Store is a child theme of MaxStore WooCommerce WordPress theme. Online Store is free WooCommerce WordPress Theme suitable for eCommerce websites of any store type: fashion, sport, technology, fashion, furniture, digitals etc. Its modern design is perfect to create a website for your business. Online Store includes plenty of customization options that are easy to use. Main features of online-store: Customizer theme options, background image and color, wishlist support, homepage slider, product search with category select, SEO optimized, fully responsive, configurable home page, fast loading. Documentation available at http://demo.themes4wp.com/documentation/category/online-store/ and check the demo at http://demo.themes4wp.com/online-store/ 
+ Author:       Themes4WP
+ Author URI:   https://themes4wp.com/
+ Template:     maxstore
+ Version:      1.0.6
+ License:      GNU General Public License v3 or later
+ License URI:  http://www.gnu.org/licenses/gpl-3.0.html
+ Tags:         one-column, two-columns, three-columns, four-columns, right-sidebar, left-sidebar, custom-background, custom-menu, featured-images, flexible-header, theme-options, translation-ready
+ Text Domain:  online-store
+*/
+
+.top-infobox.text-left {
+    line-height: 26px;
+}
+.header-alt .top-wishlist .fa {
+    font-size: 34px;
+    position: relative;
+}
+.header-alt span.amount-title, .header-alt span.amount-cart {
+    display: none;
+}
+.header-alt .top-wishlist {
+    border-left: none;
+    padding: 0px 5px;
+    margin-left: 0;
+}
+.header-banner.col-sm-6.col-xs-8 {
+    margin: 10px 0;
+}
+.header-alt .header-cart-inner {
+    margin-right: 10px;
+}
+.header-alt .header-cart {
+    padding: 0 5px 0 0;
+}
+.header-search-alt-2 .header-line-search {
+    border-bottom: none;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+    border-top: none;
+    margin-top: 15px;
+}
+.header-search-alt-2 .header-search-form {
+    position: relative;
+    padding: 10px 0;
+}
+.header-search-alt-2 .header-search-form button {
+    right: 0;
+}  
+.header-search-alt-2 .header-categories .accordion-toggle {
+    font-size: 11px;
+} 
+.header-alt.header-alt-2 {
+    border-bottom: 1px solid #D3D3D3;
+    margin-bottom: 0;
+}
+.social-alt-2 .social-links {
+    padding: 0 0 0 5px;
+}
+.social-section.social-alt-2 {
+    border-left: none;
+}
+.header-search-form select, .header-search-title {
+    font-size: 13px;
+    line-height: 20px;
+}
+a.my-account-link {
+    line-height: 26px;
+}
+.top-wishlist .count {
+    top: -5px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #505050;
+}
+a, .pagination > li > a, .pagination > li > span, .top-wishlist a {
+    color: #0088E4;
+}
+.related-header, blockquote, .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    border-color: #0088E4;
+}
+.woocommerce #respond input#submit.alt.disabled, .woocommerce #respond input#submit.alt:disabled, .woocommerce #respond input#submit.alt:disabled[disabled], .woocommerce a.button.alt.disabled, .woocommerce a.button.alt:disabled, .woocommerce a.button.alt:disabled[disabled], .woocommerce button.button.alt.disabled, .woocommerce button.button.alt:disabled, .woocommerce button.button.alt:disabled[disabled], .woocommerce input.button.alt.disabled, .woocommerce input.button.alt:disabled, .woocommerce input.button.alt:disabled[disabled] {
+    background-color: #0088E4;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #0088E4;
+}
+.navigation.pagination, .widget_search #searchform #searchsubmit, .woocommerce-product-search input[type="submit"], .widget_product_search button[type="submit"], .woocommerce ul.products li.product .onsale, .woocommerce span.onsale, .top-area .onsale {
+    background-color: #0088E4;
+}
+.woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+    background-color: #0088E4;
+}
+li.woocommerce-MyAccount-navigation-link.is-active, .woocommerce .widget_price_filter .ui-slider .ui-slider-handle, .woocommerce .widget_price_filter .ui-slider .ui-slider-range {
+    background-color: #0088E4;
+}
+.woocommerce a.added_to_cart:hover, .woocommerce ul.products li.product .button, .add-to-wishlist-custom:hover, #back-top span, .footer-pagination {
+    background-color: #0088E4;
+}
+.btn-primary.outline {
+    border: 2px solid #0088E4;
+    color: #0088E4;
+}
+.btn-info, .comment-respond #submit, #searchform #searchsubmit, .btn-primary.outline:hover, .btn-primary.outline a:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary, .topfirst-img:hover .btn-primary.outline {
+    border-color: #0088E4;
+    background-color: #0088E4;
+}
+btn-info:hover, .btn-info:focus, .btn-info.focus, .btn-info:active, .btn-info.active, .open > .dropdown-toggle.btn-info, .comment-respond #submit:hover, .comment-respond #submit:focus, .comment-respond #submit.focus, .comment-respond #submit:active, .comment-respond #submit.active, .open > .dropdown-toggle.comment-respond #submit, #searchform #searchsubmit:hover, #searchform #searchsubmit:focus, #searchform #searchsubmit.focus, #searchform #searchsubmit:active, #searchform #searchsubmit.active, .open > .dropdown-toggle#searchform #searchsubmit {
+    border-color: #005B98;
+    background-color: #005B98;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+    border-bottom-color: #0088E4;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    background-color: #0088E4;
+}
+.woocommerce ul.products li.product .button, .add-to-wishlist-custom {width: initial; min-width: 135px;} 
+.woocommerce ul.products li.product:hover .button {left: 50%; transform: translate(-50%, 0);} 
+.woocommerce ul.products li.product:hover .add-to-wishlist-custom {right: 50%; transform: translate(50%, 0);}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus, a:hover, a:focus {
+    color: #005B98;
+}
+#content-footer-section {
+    background-color: transparent;
+}
+
+/* Homepage Slider */
+#maxstore-slider {
+    position: relative;
+}
+#maxstore-slider a.carousel-control .fa {
+    position: absolute;
+    top: 50%;
+    font-size: 40px;
+    margin-top: -20px;
+}
+#maxstore-slider .fa-chevron-right {
+    right: 15px;
+}
+#maxstore-slider .fa-chevron-left {
+    left: 15px;
+}
+#maxstore-slider .carousel-control {
+    width: 8%;
+}
+#maxstore-slider .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.41);
+    right: inherit;
+    padding: 20px 30px;
+    max-width: 60%;
+    max-height: 70%;
+    overflow: hidden;
+    bottom: 40px;
+}
+#maxstore-slider h2.title {
+    margin: 0;
+    padding: 8px 15px;
+    background: #000;
+    margin-bottom: 10px;
+}
+#maxstore-slider .btn-primary.outline {
+    color: #fff;
+}
+#maxstore-slider .carousel-indicators {
+    bottom: 0px;
+}
+
+@media all and (max-width: 720px){
+    .top-slider-inner h2 {
+        font-size: 18px;
+    }
+}
+.top-area {
+    min-height: 150px;
+}

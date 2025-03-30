@@ -1,0 +1,194 @@
+<?php
+namespace MailPoetVendor\Symfony\Component\Translation;
+if (!defined('ABSPATH')) exit;
+use MailPoetVendor\Symfony\Component\Config\Resource\ResourceInterface;
+use MailPoetVendor\Symfony\Component\Translation\Exception\LogicException;
+class MessageCatalogue implements MessageCatalogueInterface, MetadataAwareInterface
+{
+ private $messages = [];
+ private $metadata = [];
+ private $resources = [];
+ private $locale;
+ private $fallbackCatalogue;
+ private $parent;
+ public function __construct(string $locale, array $messages = [])
+ {
+ $this->locale = $locale;
+ $this->messages = $messages;
+ }
+ public function getLocale()
+ {
+ return $this->locale;
+ }
+ public function getDomains()
+ {
+ $domains = [];
+ foreach ($this->messages as $domain => $messages) {
+ if (\str_ends_with($domain, self::INTL_DOMAIN_SUFFIX)) {
+ $domain = \substr($domain, 0, -\strlen(self::INTL_DOMAIN_SUFFIX));
+ }
+ $domains[$domain] = $domain;
+ }
+ return \array_values($domains);
+ }
+ public function all(?string $domain = null)
+ {
+ if (null !== $domain) {
+ // skip messages merge if intl-icu requested explicitly
+ if (\str_ends_with($domain, self::INTL_DOMAIN_SUFFIX)) {
+ return $this->messages[$domain] ?? [];
+ }
+ return ($this->messages[$domain . self::INTL_DOMAIN_SUFFIX] ?? []) + ($this->messages[$domain] ?? []);
+ }
+ $allMessages = [];
+ foreach ($this->messages as $domain => $messages) {
+ if (\str_ends_with($domain, self::INTL_DOMAIN_SUFFIX)) {
+ $domain = \substr($domain, 0, -\strlen(self::INTL_DOMAIN_SUFFIX));
+ $allMessages[$domain] = $messages + ($allMessages[$domain] ?? []);
+ } else {
+ $allMessages[$domain] = ($allMessages[$domain] ?? []) + $messages;
+ }
+ }
+ return $allMessages;
+ }
+ public function set(string $id, string $translation, string $domain = 'messages')
+ {
+ $this->add([$id => $translation], $domain);
+ }
+ public function has(string $id, string $domain = 'messages')
+ {
+ if (isset($this->messages[$domain][$id]) || isset($this->messages[$domain . self::INTL_DOMAIN_SUFFIX][$id])) {
+ return \true;
+ }
+ if (null !== $this->fallbackCatalogue) {
+ return $this->fallbackCatalogue->has($id, $domain);
+ }
+ return \false;
+ }
+ public function defines(string $id, string $domain = 'messages')
+ {
+ return isset($this->messages[$domain][$id]) || isset($this->messages[$domain . self::INTL_DOMAIN_SUFFIX][$id]);
+ }
+ public function get(string $id, string $domain = 'messages')
+ {
+ if (isset($this->messages[$domain . self::INTL_DOMAIN_SUFFIX][$id])) {
+ return $this->messages[$domain . self::INTL_DOMAIN_SUFFIX][$id];
+ }
+ if (isset($this->messages[$domain][$id])) {
+ return $this->messages[$domain][$id];
+ }
+ if (null !== $this->fallbackCatalogue) {
+ return $this->fallbackCatalogue->get($id, $domain);
+ }
+ return $id;
+ }
+ public function replace(array $messages, string $domain = 'messages')
+ {
+ unset($this->messages[$domain], $this->messages[$domain . self::INTL_DOMAIN_SUFFIX]);
+ $this->add($messages, $domain);
+ }
+ public function add(array $messages, string $domain = 'messages')
+ {
+ $altDomain = \str_ends_with($domain, self::INTL_DOMAIN_SUFFIX) ? \substr($domain, 0, -\strlen(self::INTL_DOMAIN_SUFFIX)) : $domain . self::INTL_DOMAIN_SUFFIX;
+ foreach ($messages as $id => $message) {
+ unset($this->messages[$altDomain][$id]);
+ $this->messages[$domain][$id] = $message;
+ }
+ if ([] === ($this->messages[$altDomain] ?? null)) {
+ unset($this->messages[$altDomain]);
+ }
+ }
+ public function addCatalogue(MessageCatalogueInterface $catalogue)
+ {
+ if ($catalogue->getLocale() !== $this->locale) {
+ throw new LogicException(\sprintf('Cannot add a catalogue for locale "%s" as the current locale for this catalogue is "%s".', $catalogue->getLocale(), $this->locale));
+ }
+ foreach ($catalogue->all() as $domain => $messages) {
+ if ($intlMessages = $catalogue->all($domain . self::INTL_DOMAIN_SUFFIX)) {
+ $this->add($intlMessages, $domain . self::INTL_DOMAIN_SUFFIX);
+ $messages = \array_diff_key($messages, $intlMessages);
+ }
+ $this->add($messages, $domain);
+ }
+ foreach ($catalogue->getResources() as $resource) {
+ $this->addResource($resource);
+ }
+ if ($catalogue instanceof MetadataAwareInterface) {
+ $metadata = $catalogue->getMetadata('', '');
+ $this->addMetadata($metadata);
+ }
+ }
+ public function addFallbackCatalogue(MessageCatalogueInterface $catalogue)
+ {
+ // detect circular references
+ $c = $catalogue;
+ while ($c = $c->getFallbackCatalogue()) {
+ if ($c->getLocale() === $this->getLocale()) {
+ throw new LogicException(\sprintf('Circular reference detected when adding a fallback catalogue for locale "%s".', $catalogue->getLocale()));
+ }
+ }
+ $c = $this;
+ do {
+ if ($c->getLocale() === $catalogue->getLocale()) {
+ throw new LogicException(\sprintf('Circular reference detected when adding a fallback catalogue for locale "%s".', $catalogue->getLocale()));
+ }
+ foreach ($catalogue->getResources() as $resource) {
+ $c->addResource($resource);
+ }
+ } while ($c = $c->parent);
+ $catalogue->parent = $this;
+ $this->fallbackCatalogue = $catalogue;
+ foreach ($catalogue->getResources() as $resource) {
+ $this->addResource($resource);
+ }
+ }
+ public function getFallbackCatalogue()
+ {
+ return $this->fallbackCatalogue;
+ }
+ public function getResources()
+ {
+ return \array_values($this->resources);
+ }
+ public function addResource(ResourceInterface $resource)
+ {
+ $this->resources[$resource->__toString()] = $resource;
+ }
+ public function getMetadata(string $key = '', string $domain = 'messages')
+ {
+ if ('' == $domain) {
+ return $this->metadata;
+ }
+ if (isset($this->metadata[$domain])) {
+ if ('' == $key) {
+ return $this->metadata[$domain];
+ }
+ if (isset($this->metadata[$domain][$key])) {
+ return $this->metadata[$domain][$key];
+ }
+ }
+ return null;
+ }
+ public function setMetadata(string $key, $value, string $domain = 'messages')
+ {
+ $this->metadata[$domain][$key] = $value;
+ }
+ public function deleteMetadata(string $key = '', string $domain = 'messages')
+ {
+ if ('' == $domain) {
+ $this->metadata = [];
+ } elseif ('' == $key) {
+ unset($this->metadata[$domain]);
+ } else {
+ unset($this->metadata[$domain][$key]);
+ }
+ }
+ private function addMetadata(array $values)
+ {
+ foreach ($values as $domain => $keys) {
+ foreach ($keys as $key => $value) {
+ $this->setMetadata($key, $value, $domain);
+ }
+ }
+ }
+}

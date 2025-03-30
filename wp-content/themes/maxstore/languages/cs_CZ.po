@@ -1,0 +1,2377 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: maxstore\n"
+"POT-Creation-Date: 2017-04-06 13:51+0200\n"
+"PO-Revision-Date: 2017-04-06 13:51+0200\n"
+"Last-Translator: Themes4WP <info@themes4wp.com>\n"
+"Language-Team: \n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib/kirki\n"
+"X-Poedit-SearchPathExcluded-1: inc/class-tgm-plugin-activation.php\n"
+
+#: 404.php:13
+msgid "Oops!"
+msgstr "Jejda!"
+
+#: 404.php:14
+msgid "404 Not Found"
+msgstr "404 Nenalezeno"
+
+#: 404.php:16
+msgid "Sorry, an error has occured, Requested page not found!"
+msgstr "Omlouváme se, ale nastala nějaká chyba, stránka nenalezena!"
+
+#: 404.php:20
+msgid " Take Me Home"
+msgstr " Vezmi mě domů"
+
+#: comments.php:6
+msgid "Leave a Comment"
+msgstr "Zanechat komentář"
+
+#: comments.php:6
+msgid "One Comment"
+msgstr "Jeden Komentář"
+
+#: comments.php:6
+msgid " Comments"
+msgstr " Komentářů"
+
+#: content-none.php:2
+msgid "Nothing Found"
+msgstr "Nic nenalezeno"
+
+#: content-none.php:5
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Jste připraveni publikovat svůj první příspěvek? <a href=\"%1$s\">Začněte "
+"zde</a>."
+
+#: content-none.php:9
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Omlouváme se, ale zadanému výrazu neodpovídá žádný obsah. Zkuste prosím "
+"zadat jiný výraz."
+
+#: content-none.php:14
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "Zdá se, že nemůžete najít, co hledáte. Snad pomůže vyhledávání."
+
+#: content-single.php:26
+msgid "Previous:"
+msgstr "Předchozí:"
+
+#: content-single.php:27
+msgid "Next:"
+msgstr "Následující:"
+
+#: content.php:24
+msgid "Read more"
+msgstr "Číst více"
+
+#: footer.php:9
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "Hrdě běží na CMS %s"
+
+#: footer.php:9
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: footer.php:11
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr "Šablona: %1$s od %2$s"
+
+#: footer.php:11
+msgid "Free WooCommerce WordPress Theme"
+msgstr "Free WooCommerce WordPress Theme"
+
+#: front-page.php:33
+msgid "No products found"
+msgstr "Nebyly nalezeny žádné produkty"
+
+#: functions.php:25
+msgid "Main Menu"
+msgstr "Hlavní menu"
+
+#: functions.php:88 lib/theme-config.php:233
+msgid "Right Sidebar"
+msgstr "Pravý boční panel"
+
+#: functions.php:98 lib/theme-config.php:258
+msgid "Left Sidebar"
+msgstr "Levý boční panel"
+
+#: functions.php:107
+msgid "Footer Section"
+msgstr "Sekce zápatí"
+
+#: functions.php:109
+msgid "Content Footer Section"
+msgstr "Sekce obsah zápatí"
+
+#: functions.php:167
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr "Domů"
+
+#: functions.php:184
+msgid "Blog"
+msgstr "Blog"
+
+#: functions.php:255
+msgid "Error 404"
+msgstr "Chyba 404"
+
+#: functions.php:257
+msgid "Search results for"
+msgstr "Výsledky vyhledávání pro:"
+
+#: functions.php:272
+msgid "Page"
+msgstr "Stránka"
+
+#: functions.php:346
+msgid "View your shopping cart"
+msgstr "Zobrazit košík"
+
+#: functions.php:347
+msgid "Cart "
+msgstr "Košík"
+
+#: functions.php:361
+msgid "Wishlist"
+msgstr "Oblíbené položky"
+
+#: functions.php:434
+msgid "Add to Wishlist"
+msgstr "Přidat do oblíbených"
+
+#: functions.php:435
+msgid "Added!"
+msgstr "Přidáno!"
+
+#: functions.php:435
+msgid "View Wishlist"
+msgstr "Zobrazit seznam přání"
+
+#: functions.php:436
+msgid "The product is already in the wishlist!"
+msgstr "Tento produkt je již v seznamu oblíbených!"
+
+#: functions.php:436
+msgid "Browse Wishlist"
+msgstr "Procházet seznam přání"
+
+#: functions.php:453
+msgctxt "woocommerce breadcrumb"
+msgid "Home"
+msgstr "Domů"
+
+#: index.php:20
+#, php-format
+msgid "%s Search Results for \"%s\""
+msgstr "%s Výsledky vyhledávání pro \"%s\""
+
+#: lib/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "Instalovat vyžadované pluginy"
+
+#: lib/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "Instalovat pluginy"
+
+#: lib/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Instalace pluginu: %s"
+
+#: lib/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Aktualizace pluginu:%s"
+
+#: lib/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "Něco se pokazilo s API pluginu."
+
+#: lib/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Toto téma vyžaduje následující plugin:%1$s."
+msgstr[1] "Tato šablona vyžaduje následující pluginy: %1$s."
+msgstr[2] "Tato šablona vyžaduje následující pluginy: %1$s."
+
+#: lib/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Toto téma se doporučuje následující plugin:%1$s."
+msgstr[1] "Tato šablona doporučuje následující pluginy:%1$s."
+msgstr[2] "Tato šablona doporučuje následující pluginy:%1$s."
+
+#: lib/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Následující plugin potřebuje aktualizovat na poslední verzi pro zajištění "
+"maximální kompatibility s šablonou: %1$s."
+msgstr[1] ""
+"Následující pluginy potřebují aktualizovat na poslední verzi pro zajištění "
+"maximální kompatibility s šablonou: %1$s."
+msgstr[2] ""
+"Následující pluginy potřebují aktualizovat na poslední verzi pro zajištění "
+"maximální kompatibility s šablonou: %1$s."
+
+#: lib/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Je k dispozici nová aktualizace pro: %1$s."
+msgstr[1] "Jsou k dispozici nové aktualizace pro: %1$s."
+msgstr[2] "Jsou k dispozici nové aktualizace pro: %1$s."
+
+#: lib/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Následující požadovaný plugin je v současné době deaktivovaný:%1$s."
+msgstr[1] ""
+"Následující požadované pluginy jsou v současné době deaktivovány:%1$s."
+msgstr[2] ""
+"Následující požadované pluginy jsou v současné době deaktivovány:%1$s."
+
+#: lib/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Následující doporučený plugin je v současné době deaktivovaný:%1$s."
+msgstr[1] ""
+"Následující doporučené pluginy jsou v současné době deaktivovány:%1$s."
+msgstr[2] ""
+"Následující doporučené pluginy jsou v současné době deaktivovány:%1$s."
+
+#: lib/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Začít instalovat plugin"
+msgstr[1] "Začít instalovat pluginy"
+msgstr[2] "Začít instalovat pluginy"
+
+#: lib/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Začít aktualizovat plugin"
+msgstr[1] "Začít aktualizovat pluginy"
+msgstr[2] "Začít aktualizovat pluginy"
+
+#: lib/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Začít aktivovat plugin"
+msgstr[1] "Začít aktivovat pluginy"
+msgstr[2] "Začít aktivovat pluginy"
+
+#: lib/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "Návrat na instalaci vyžadovaných pluginů."
+
+#: lib/class-tgm-plugin-activation.php:386
+#: lib/class-tgm-plugin-activation.php:827
+#: lib/class-tgm-plugin-activation.php:2533
+#: lib/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "Návrat na nástěnku"
+
+#: lib/class-tgm-plugin-activation.php:387
+#: lib/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "Plugin byl úspěšně aktivován."
+
+#: lib/class-tgm-plugin-activation.php:388
+#: lib/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Následující plugin byl úspěšně aktivován:"
+msgstr[1] "Následující pluginy byly úspěšně aktivovány:"
+msgstr[2] "Následující pluginy byly úspěšně aktivovány:"
+
+#: lib/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Nic se nestalo. Plugin %1$s již byl aktivní."
+
+#: lib/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Plugin není aktivován. Pro tuto šablonu je zapotřebí vyšší verze pluginu %s. "
+"Aktualizujte, prosím, tento plugin."
+
+#: lib/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Všechny pluginy byly úspěšně nainstalovány a aktivovány. %1$s"
+
+#: lib/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "Skrýt toto oznámení"
+
+#: lib/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Existuje jeden nebo více požadovaných nebo dorporučených pluginů k "
+"instalaci, aktualizaci nebo aktivaci."
+
+#: lib/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "Pro pomoc kontaktujte, prosím, administrátora tohoto webu."
+
+#: lib/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"Tento plugin je třeba aktualizovat, aby byl kompatibilní s vaší šablonou."
+
+#: lib/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Je vyžadována aktualizace"
+
+#: lib/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Vzdálený komprimovaný plugin neobsahuje složku s vyžadovaným slugem a "
+"přejmenování nefunguje."
+
+#: lib/class-tgm-plugin-activation.php:934
+#: lib/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Prosím obraťte se na poskytovatele pluginu a požádejte ho, aby plugin "
+"zabalil dle směrnic WordPressu."
+
+#: lib/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Vzdálený balíček pluginu obsahuje více než jeden soubor, ale soubory nejsou "
+"zabaleny ve složce."
+
+#: lib/class-tgm-plugin-activation.php:1121
+#: lib/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "a"
+
+#: lib/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: lib/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "Vyžadovaný"
+
+#: lib/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "Doporučený"
+
+#: lib/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "Adresář WordPress"
+
+#: lib/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "Externí zdroj"
+
+#: lib/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "Předpřipravený"
+
+#: lib/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "Nenainstalovaný"
+
+#: lib/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "Nainstalovaný, ale neaktivní"
+
+#: lib/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "Aktivní"
+
+#: lib/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "Vyžadovaná aktualizace není dostupná"
+
+#: lib/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Vyžaduje aktualizaci"
+
+#: lib/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Doporučujeme aktualizovat"
+
+#: lib/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: lib/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Všechny <span class=\\”count\\”>(%s)</span>"
+msgstr[1] "Všechny <span class=\\”count\\”>(%s)</span>"
+msgstr[2] "Všechny <span class=\\”count\\”>(%s)</span>"
+
+#: lib/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Instalace <span class=\"count\">(%s)</span>"
+msgstr[1] "Instalace <span class=\"count\">(%s)</span>"
+msgstr[2] "Instalace <span class=\"count\">(%s)</span>"
+
+#: lib/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "K dispozici je aktualizace <span class=\"count\">(%s)</span>"
+msgstr[1] "K dispozici je aktualizace <span class=\"count\">(%s)</span>"
+msgstr[2] "K dispozici je aktualizace <span class=\"count\">(%s)</span>"
+
+#: lib/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Aktivovat <span class=\"count\">(%s)</span>"
+msgstr[1] "Aktivovat <span class=\"count\">(%s)</span>"
+msgstr[2] "Aktivovat <span class=\"count\">(%s)</span>"
+
+#: lib/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "neznámá"
+
+#: lib/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Nainstalovaná verze:"
+
+#: lib/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Minimální požadovaná verze:"
+
+#: lib/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Dostupná verze:"
+
+#: lib/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "Žádné pluginy k instalaci, aktualizaci nebo aktivaci."
+
+#: lib/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Plugin"
+
+#: lib/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "Zdroj"
+
+#: lib/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "Typ"
+
+#: lib/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "Verze"
+
+#: lib/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "Status"
+
+#: lib/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr "Nainstalovat %2$s"
+
+#: lib/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr "Aktualizovat %2$s"
+
+#: lib/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr "Aktivovat %2$s"
+
+#: lib/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Aktualizovat zprávu od autora pluginu:"
+
+#: lib/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "Instalace"
+
+#: lib/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "Aktualizace"
+
+#: lib/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "Aktivovat"
+
+#: lib/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Žádné pluginy nebyly vybrány k instalaci. Akce nebyla provedena."
+
+#: lib/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Žádné pluginy nebyly vybrány k aktualizaci. Akce nebyla provedena."
+
+#: lib/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "Žádné pluginy nejsou dotupné k instalaci."
+
+#: lib/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "V tuto chvíli nejsou k dipozici žádné pluginy k aktualizaci."
+
+#: lib/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Žádné pluginy nebyly vybrány k aktivaci. Akce nebyla provedena."
+
+#: lib/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "Žádné pluginy nejsou dotupné k aktivaci."
+
+#: lib/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "Aktivace pluginu se nezdařila."
+
+#: lib/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Probíhá aktualizace pluginu %1$s (%2$d/%3$d)"
+
+#: lib/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Během instalace %1$s došlo k chybě: <strong>%2$s</strong>."
+
+#: lib/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Instalace %1$s se nezdařila."
+
+#: lib/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Proces instalace a aktivace byl zahájen. Prosím buďte trpěliví, neboť proces "
+"může chvíli trvat."
+
+#: lib/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s byl úspěšně nainstalován a aktivován."
+
+#: lib/class-tgm-plugin-activation.php:3509
+#: lib/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "Ukázat detaily"
+
+#: lib/class-tgm-plugin-activation.php:3509
+#: lib/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "Skrýt detaily"
+
+#: lib/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "Všechny instalace a aktivace byly dokončeny."
+
+#: lib/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalace a aktivace pluginu %1$s (%2$d/%3$d)"
+
+#: lib/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Proces instalace byl zahájen. Prosím buďte trpěliví, neboť proces může "
+"chvíli trvat."
+
+#: lib/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s úspěšně nainstalován."
+
+#: lib/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "Instalace byly dokončeny."
+
+#: lib/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalace pluginu %1$s (%2$d/%3$d)"
+
+#: lib/customize-pro/class-customize.php:76 lib/theme-config.php:224
+msgid "Need More Features?"
+msgstr "Potřebují více funkcí?"
+
+#: lib/customize-pro/class-customize.php:77
+msgid "View PRO Version"
+msgstr "Zobrazit PRO verzi"
+
+#: lib/include-kirki.php:50
+msgid ""
+"A plugin is required to take advantage of this theme's features in the "
+"customizer."
+msgstr "Je vyžadován plugin pro zobrazení pokročilých funkcí šablony."
+
+#: lib/include-kirki.php:52
+msgid "Install Now"
+msgstr "Nainstalovat nyní"
+
+#: lib/include-kirki.php:55
+msgid ""
+"You have installed Kirki. Activate it to take advantage of this theme's "
+"features in the customizer."
+msgstr ""
+"Kirki plugin je nainstalován. Aktivujte ho pro zobrazení pokročilých funkcí "
+"šablony."
+
+#: lib/include-kirki.php:57
+msgid "Activate Now"
+msgstr "Aktivovat nyní"
+
+#: lib/metaboxes.php:18
+msgid "Homepage Options"
+msgstr "Nastavení domovské stránky"
+
+#: lib/metaboxes.php:28
+msgid "Top section"
+msgstr "Horní sekce"
+
+#: lib/metaboxes.php:29
+msgid "Enable or disable top section"
+msgstr "Povolit nebo zakázat horní sekci"
+
+#: lib/metaboxes.php:34
+msgid "On"
+msgstr "Zapnuto"
+
+#: lib/metaboxes.php:35
+msgid "Off"
+msgstr "Off"
+
+#: lib/metaboxes.php:39
+msgid "Upload first image"
+msgstr "Nahrát první obrázek"
+
+#: lib/metaboxes.php:40
+msgid "Upload first image. 600x600px"
+msgstr "Nahrajte první obrázek. 600x600px"
+
+#: lib/metaboxes.php:45 lib/metaboxes.php:46
+msgid "Title"
+msgstr "Nadpis"
+
+#: lib/metaboxes.php:51 lib/metaboxes.php:52
+msgid "Description"
+msgstr "Popis"
+
+#: lib/metaboxes.php:57
+msgid "Button text"
+msgstr "Text tlačítka"
+
+#: lib/metaboxes.php:62
+msgid "Button URL"
+msgstr "URL Tlačítka"
+
+#: lib/metaboxes.php:68
+msgid "Secondary category"
+msgstr "Vedlejší kategorie"
+
+#: lib/metaboxes.php:69
+msgid "Select an option"
+msgstr "Vyberte možnost"
+
+#: lib/theme-config.php:24
+msgid "WooCommerce Homepage Demo"
+msgstr "WooCommerce demo domovské stránky"
+
+#: lib/theme-config.php:29
+msgid "Sidebars"
+msgstr "Sidebary"
+
+#: lib/theme-config.php:31
+msgid "Sidebar layouts."
+msgstr "Rozložení sidebaru"
+
+#: lib/theme-config.php:35
+msgid "Main styling"
+msgstr "Hlavní nastavení"
+
+#: lib/theme-config.php:37
+msgid "Define theme layout"
+msgstr "Definovat vzhled šablony"
+
+#: lib/theme-config.php:41
+msgid "Top Bar"
+msgstr "Horní panel"
+
+#: lib/theme-config.php:43
+msgid "Top bar text"
+msgstr "Text bloku v záhlaví"
+
+#: lib/theme-config.php:47
+msgid "Search Bar & Social"
+msgstr "Lišta vyhledávání & sociální ikony"
+
+#: lib/theme-config.php:49
+msgid "Search and social icons"
+msgstr "Hledání a sociální ikony"
+
+#: lib/theme-config.php:53
+msgid "Site Background"
+msgstr "Pozadí stránky"
+
+#: lib/theme-config.php:58
+msgid "Colors"
+msgstr "Barvy"
+
+#: lib/theme-config.php:64 lib/welcome/sections/getting-started.php:125
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: lib/theme-config.php:69
+msgid "Theme Important Links"
+msgstr "Důležité odkazy šablony"
+
+#: lib/theme-config.php:76
+msgid "Enable Demo Homepage?"
+msgstr "Aktivovat demo na domovské stránce?"
+
+#: lib/theme-config.php:77
+#, php-format
+msgid ""
+"When the theme is first installed and WooCommerce plugin activated, the demo "
+"mode would be turned on. This will display some sample/example content to "
+"show you how the website can be possibly set up. When you are comfortable "
+"with the theme options, you should turn this off. You can create your own "
+"unique homepage - Check the %s page for more informations."
+msgstr ""
+"Pokud je šablona prvně nainstalována a plugin WooCommerce aktivován, demo "
+"mód je aktivován. Tím se zobrazí ukázka obsahu, jak může váš web vypadat. "
+"Pokud jste s šablonou spokojeni, můžete si vytvořit vlastní unikátní "
+"domovskou stránku - Pro více informací přejděte na %s stránku."
+
+#: lib/theme-config.php:77
+msgid "Theme info"
+msgstr "Informace o šabloně"
+
+#: lib/theme-config.php:85
+msgid "Homepage Demo Styles"
+msgstr "Styly dema domovské stránky"
+
+#: lib/theme-config.php:86
+#, php-format
+msgid ""
+"The demo homepage is enabled. You can choose from some predefined layouts or "
+"make your own %s."
+msgstr ""
+"Demo domovské stránky je aktivována. Můžete si vybrat z několika "
+"předdefinovaných vzhldů, nebo vytvořit svůj vlastní %s."
+
+#: lib/theme-config.php:86
+msgid "custom homepage template"
+msgstr "vzhled domovské stránky"
+
+#: lib/theme-config.php:91
+msgid "Layout one"
+msgstr "Vzhled 1"
+
+#: lib/theme-config.php:92
+msgid "Layout two"
+msgstr "Vzhled 2"
+
+#: lib/theme-config.php:105
+msgid "Homepage top section"
+msgstr "Horní části domovské stránky"
+
+#: lib/theme-config.php:106
+msgid ""
+"Enable or disable demo homepage top section with custom image and random "
+"category products."
+msgstr ""
+"Povolit nebo zakázat horní sekci na domovské stránce s vlastním obrázkem a "
+"náhodnou kategorií produktů."
+
+#: lib/theme-config.php:121
+msgid "Banner image"
+msgstr "Obrázek baneru"
+
+#: lib/theme-config.php:141
+msgid "Banner title"
+msgstr "Titulek baneru"
+
+#: lib/theme-config.php:142 lib/welcome/sections/free_pro.php:11
+#: template-parts/demo-home-cats.php:3
+msgid "MaxStore"
+msgstr "MaxStore"
+
+#: lib/theme-config.php:161
+msgid "Banner description"
+msgstr "Popisek baneru"
+
+#: lib/theme-config.php:162 template-parts/demo-home-cats.php:4
+msgid "Edit this section in customizer"
+msgstr "Upravte tuto sekci v administraci šablony"
+
+#: lib/theme-config.php:181
+msgid "Banner url"
+msgstr "URL baneru"
+
+#: lib/theme-config.php:201
+msgid "Products"
+msgstr "Produkty"
+
+#: lib/theme-config.php:203
+msgid ""
+"If you dont see any products or categories on your homepage, you dont have "
+"any products probably. Create some products and categories first."
+msgstr ""
+"Pokud nevidíte žádné produkty nebo kategorie, pravděpodobně žádné nemáte. "
+"Vytvořte nejdříve nějaké produkty a kategorie."
+
+#: lib/theme-config.php:216
+msgid "Need Dummy Products?"
+msgstr "Potřebujete fiktivní produkty?"
+
+#: lib/theme-config.php:218
+#, php-format
+msgid ""
+"When the theme is first installed, you dont have any products probably. You "
+"can easily import dummy products with only few clicks. Check %s tutorial."
+msgstr ""
+"Pokud je vaše šablona prvně nainstalována, pravděpodobně nemáte žádné "
+"produkty. Jednoduše můžete nainstalovat fiktivní produkty pomocí pár kliků. "
+"Prohlédněte si %s tutorial."
+
+#: lib/theme-config.php:218
+msgid "THIS"
+msgstr "TENTO"
+
+#: lib/theme-config.php:226
+#, php-format
+msgid "Learn more about %s PRO"
+msgstr "Přečtěte si více o %s PRO"
+
+#: lib/theme-config.php:234
+msgid "Enable the Right Sidebar"
+msgstr "Povolit pravý sidebar"
+
+#: lib/theme-config.php:243
+msgid "Right Sidebar Size"
+msgstr "Velikost pravého sidebaru"
+
+#: lib/theme-config.php:259
+msgid "Enable the Left Sidebar"
+msgstr "Povolit levý sidebar"
+
+#: lib/theme-config.php:268
+msgid "Left Sidebar Size"
+msgstr "Velikost levého sidebaru"
+
+#: lib/theme-config.php:283
+msgid "Footer Widget Area Columns"
+msgstr "Počet sloupců v sekci widgetů zápatí"
+
+#: lib/theme-config.php:298
+msgid "Logo"
+msgstr "Logo"
+
+#: lib/theme-config.php:299
+msgid "Upload your logo"
+msgstr "Nahrát vaše logo"
+
+#: lib/theme-config.php:309
+msgid "Top bar left"
+msgstr "Horní levá sekce"
+
+#: lib/theme-config.php:310
+msgid "Top bar left text area"
+msgstr "Text horní lišty vlevo"
+
+#: lib/theme-config.php:311 lib/theme-config.php:322
+msgid "You can add custom text. Only text allowed!"
+msgstr "Můžete přidat vlastní text. Pouze text povolen!"
+
+#: lib/theme-config.php:320
+msgid "Top bar right"
+msgstr "Horní pravá sekce"
+
+#: lib/theme-config.php:321
+msgid "Top bar right text area"
+msgstr "Text horní lišty vpravo"
+
+#: lib/theme-config.php:332
+msgid "Search bar"
+msgstr "Vyhledávací box"
+
+#: lib/theme-config.php:333
+msgid "Enable search bar with social icons"
+msgstr "Zapnout vyhledávací box se sociálními ikony"
+
+#: lib/theme-config.php:341
+msgid "Search bar on mobile devices"
+msgstr "Vyhledávací box na mobilních zařízeních"
+
+#: lib/theme-config.php:342
+msgid "Enable or disable Search bar on mobile devices"
+msgstr "Povolit nebo zakázat vyhledávací panel na mobilních zařízeních"
+
+#: lib/theme-config.php:347
+msgid "Visible"
+msgstr "Viditelný"
+
+#: lib/theme-config.php:348
+msgid "Hidden"
+msgstr "Skrytý"
+
+#: lib/theme-config.php:361
+msgid "Social Icons"
+msgstr "Sociální ikony"
+
+#: lib/theme-config.php:362
+msgid "Enable or Disable the social icons. Use max 6 icons."
+msgstr "Povolit nebo zakázat sociální ikony. Používejte maximální 6 ikon."
+
+#: lib/theme-config.php:375
+msgid "Facebook"
+msgstr "Facebook"
+
+#: lib/theme-config.php:376
+msgid "Twitter"
+msgstr "Twitter"
+
+#: lib/theme-config.php:377
+msgid "Google-Plus"
+msgstr "Google-Plus"
+
+#: lib/theme-config.php:378
+msgid "Instagram"
+msgstr "Instagram"
+
+#: lib/theme-config.php:379
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: lib/theme-config.php:380
+msgid "YouTube"
+msgstr "YouTube"
+
+#: lib/theme-config.php:381
+msgid "Reddit"
+msgstr "Reddit"
+
+#: lib/theme-config.php:382
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: lib/theme-config.php:383
+msgid "Skype"
+msgstr "Skype"
+
+#: lib/theme-config.php:384
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: lib/theme-config.php:385
+msgid "Flickr"
+msgstr "Flickr"
+
+#: lib/theme-config.php:386
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: lib/theme-config.php:387
+msgid "Email"
+msgstr "E-mail"
+
+#: lib/theme-config.php:388
+msgid "Rss"
+msgstr "RSS"
+
+#: lib/theme-config.php:396
+#, php-format
+msgid "Insert your custom link to show the %s icon."
+msgstr "Vložte svůj vlastní odkaz pro zobrazení %s ikony."
+
+#: lib/theme-config.php:397
+msgid "Leave blank to hide icon."
+msgstr "Ponechte prázdné pro skrytí ikony"
+
+#: lib/theme-config.php:414
+msgid "Site title color"
+msgstr "Barva titulku stránky"
+
+#: lib/theme-config.php:415
+msgid "Site title text color, if not defined logo."
+msgstr "Barva textu nadpisu stránky, pokud není definováno logo."
+
+#: lib/theme-config.php:430
+msgid "Site description color"
+msgstr "Barva popisku stránky"
+
+#: lib/theme-config.php:431
+msgid "Site description text color, if not defined logo."
+msgstr "Barva textu popisu stránky, pokud není definováno logo."
+
+#: lib/theme-config.php:447
+msgid "Header Wishlist icon"
+msgstr "Ikona přání v záhlaví"
+
+#: lib/theme-config.php:448
+msgid "Enable or disable heart icon with counter in header"
+msgstr "Povolit nebo zakázat ikonu srdce s čítačem v záhlaví"
+
+#: lib/theme-config.php:457
+msgid "Header Cart"
+msgstr "Košík v záhlaví"
+
+#: lib/theme-config.php:458
+msgid "Enable or disable header cart"
+msgstr "Povolit nebo zakázat košík v záhlaví"
+
+#: lib/theme-config.php:466
+msgid "My Account/Login link"
+msgstr "Můj účet/Přihlášení odkaz"
+
+#: lib/theme-config.php:467
+msgid "Enable or disable header My Account/Login/Register link"
+msgstr "Povolit nebo zakázat odkaz Můj účet/Přihlášení/Registrace"
+
+#: lib/theme-config.php:475
+msgid "Breadcrumbs"
+msgstr "Drobečková navigace"
+
+#: lib/theme-config.php:476
+msgid "Enable or disable breadcrumbs on WooCommerce pages"
+msgstr "Povolit nebo zakázat drobečkovou navigaci na WooCommerce stránkách"
+
+#: lib/theme-config.php:484
+msgid "Gallery zoom"
+msgstr "Zoom galerie"
+
+#: lib/theme-config.php:492
+msgid "Gallery lightbox"
+msgstr "Lightbox galerie"
+
+#: lib/theme-config.php:500
+msgid "Gallery slider"
+msgstr "Slider galerie"
+
+#: lib/theme-config.php:508
+msgid "Number of products"
+msgstr "Počet produktů"
+
+#: lib/theme-config.php:509
+msgid "Change number of products displayed per page in archive(shop) page."
+msgstr ""
+"Změnit počet produktů zobrazených na stránce v archivu(obchodu) stránky."
+
+#: lib/theme-config.php:522
+msgid "Number of products per row"
+msgstr "Počet produktů na řádku"
+
+#: lib/theme-config.php:523
+msgid "Change the number of product columns per row in archive(shop) page."
+msgstr "Změna počtu produktů na řádku na stránce v archivu(obchodu) stránky."
+
+#: lib/theme-config.php:538
+msgid "Background"
+msgstr "Pozadí"
+
+#: lib/theme-config.php:555
+msgid "Documentation"
+msgstr "Dokumentace"
+
+#: lib/theme-config.php:560 lib/welcome/welcome-screen.php:88
+msgid "Support"
+msgstr "Podpora"
+
+#: lib/theme-config.php:565
+msgid "View Demo"
+msgstr "Zobrazi demo"
+
+#: lib/theme-config.php:570
+msgid "Rate This Theme"
+msgstr "Ohodnotit tuto šablonu"
+
+#: lib/welcome/sections/actions-required.php:11
+#, php-format
+msgid "Keep up with %s's recommended actions"
+msgstr "Držte krok s doporučenými akcemi %s"
+
+#: lib/welcome/sections/actions-required.php:16
+msgid "WooCommerce is not installed"
+msgstr "WooCommerce není nainstalován"
+
+#: lib/welcome/sections/actions-required.php:17
+msgid ""
+"In order to use shop features, you need to install and activate WooCommerce "
+"plugin."
+msgstr ""
+"Aby bylo možné používat funkce obchodu, musíte nainstalovat a aktivovat "
+"WooCommerce plugin."
+
+#: lib/welcome/sections/actions-required.php:18
+#: lib/welcome/sections/getting-started.php:130
+msgid "Install WooCommerce"
+msgstr "Nainstalovat WooCommerce"
+
+#: lib/welcome/sections/actions-required.php:25
+msgid "Kirki Toolkit is not installed"
+msgstr "Kirki Toolkit není nainstalován"
+
+#: lib/welcome/sections/actions-required.php:26
+#: lib/welcome/sections/getting-started.php:32
+#: lib/welcome/sections/getting-started.php:115
+msgid ""
+"This theme uses Kirki toolkit plugin to customize theme. This plugin adds "
+"advanced features to the WordPress customizer. Install the plugin before you "
+"go to the customizer."
+msgstr ""
+"Tato šablona používá pro přizpůsobení Kirki toolkit plugin. Tento nástroj "
+"přidává do administrace pokročilé funkce a flexibilitu. Nainstalujte tento "
+"plugin před tím než přejdete do administrace."
+
+#: lib/welcome/sections/actions-required.php:27
+#: lib/welcome/sections/getting-started.php:37
+#: lib/welcome/sections/getting-started.php:119
+msgid "Install Kirki Toolkit"
+msgstr "Nainstalovat Kirki Toolkit"
+
+#: lib/welcome/sections/actions-required.php:34
+msgid "Homepage demo is enabled"
+msgstr "Demo domovské stránky je aktivní"
+
+#: lib/welcome/sections/actions-required.php:35
+msgid ""
+"When the theme is first installed and WooCommerce plugin activated, the demo "
+"mode would be turned on. This will display some sample/example content to "
+"show you how the website can be possibly set up. When you are comfortable "
+"with the theme options, you should turn this off. Then please go to "
+"Customize -> WooCommerce Homepage Demo and turn off the demo."
+msgstr ""
+"Je-li šablona prvně nainstalována a plugin WooCommerce je aktivní, demo "
+"režim je zapnutý. Ten zobrazí příklad obsahu, aby vám ukázal jak mohou vaše "
+"stránky vypadat. Pokud jste s možnostmi šablony spokojeni, můžete tuto "
+"funkci vypnout. Přejděte do administrace šablony - WooCommerce demo domovské "
+"stránky a vypněte demo."
+
+#: lib/welcome/sections/actions-required.php:36
+#: lib/welcome/sections/actions-required.php:43
+#: lib/welcome/sections/getting-started.php:39
+msgid "Go to Customizer"
+msgstr "Přejít na Customizer"
+
+#: lib/welcome/sections/actions-required.php:41
+msgid "Switch \"Front page displays\" to \"A static page\" "
+msgstr "Přepněte \"Nejnovější příspěvky\" na \"Statickou stránku\" "
+
+#: lib/welcome/sections/actions-required.php:42
+msgid ""
+"If you want to create unique shop homepage, create the new page first, set "
+"the template \"Homepage\", add your own content and save the page. Then "
+"please go to Customize -> Static Front Page and switch \"Front page displays"
+"\" to \"A static page\" and select the page you created before."
+msgstr ""
+"Chcete-li vytvořit unikátní domovskou stránku, vytvořte nejdříve novou "
+"stránku, nastavte šablonu \"Homepage\", vložte vlastní obsah a uložte "
+"stránku. Následně jděte do administrace -> Zobrazení úvodní stránky a "
+"přepněte \"Na úvodní stránce zobrazit\" na \"Statickou stránku\" a vyberte "
+"stránku kterou jste před tím vytvořili."
+
+#: lib/welcome/sections/actions-required.php:55
+msgid "Hooray! There are no recommended actions for you right now."
+msgstr "Výborně! V současné době nejsou žádné doporučené akce."
+
+#: lib/welcome/sections/contribute.php:9
+msgid "How can I contribute?"
+msgstr "Jak mohu přispět?"
+
+#: lib/welcome/sections/contribute.php:15
+msgid "Found a bug? Want to contribute with a fix?"
+msgstr "Našli nějakou chybu? Chcete přispět s opravou?"
+
+#: lib/welcome/sections/contribute.php:17
+msgid "Contact form is the place to go!"
+msgstr "Kontaktní formulář je místo, kam jít!"
+
+#: lib/welcome/sections/contribute.php:20
+#, php-format
+msgid "%s contact form"
+msgstr "%s kontaktní formulář"
+
+#: lib/welcome/sections/contribute.php:28
+#, php-format
+msgid "Are you a polyglot? Want to translate %s into your own language?"
+msgstr "Jste polygot? Chcete přeložit %s do svého jazyka?"
+
+#: lib/welcome/sections/contribute.php:30
+msgid "Get involved at WordPress.org."
+msgstr "Zapojte se na WordPress.org."
+
+#: lib/welcome/sections/contribute.php:33
+#, php-format
+msgid "Translate %s"
+msgstr "Přeložit %s"
+
+#: lib/welcome/sections/contribute.php:40
+#, php-format
+msgid "Are you enjoying %s?"
+msgstr "Máte rádi šablonu %s?"
+
+#: lib/welcome/sections/contribute.php:42
+#, php-format
+msgid "Rate our theme on %s. We'd really appreciate it!"
+msgstr "Ohodnoťte tuto šablonu na %s. Budeme vám vděčni!"
+
+#: lib/welcome/sections/free_pro.php:9
+msgid "Features"
+msgstr "Vlastnosti"
+
+#: lib/welcome/sections/free_pro.php:13
+msgid "MaxStore PRO"
+msgstr "MaxStore PRO"
+
+#: lib/welcome/sections/free_pro.php:17
+msgid "WHY UPGRADE TO PRO?"
+msgstr "PROČ UPGRADE NA PRO VERZI?"
+
+#: lib/welcome/sections/free_pro.php:19
+msgid "Upgrade to PRO for these awesome features!"
+msgstr "Upgrade na PRO pro tyto úžasné vlastnosti!"
+
+#: lib/welcome/sections/free_pro.php:22
+msgid "Theme Demo"
+msgstr "Demo šablony"
+
+#: lib/welcome/sections/free_pro.php:24 lib/welcome/sections/free_pro.php:25
+msgid "Demo"
+msgstr "Demo"
+
+#: lib/welcome/sections/free_pro.php:28
+msgid "Get Started"
+msgstr "Začínáme"
+
+#: lib/welcome/sections/free_pro.php:30
+msgid "Download"
+msgstr "Stáhnout"
+
+#: lib/welcome/sections/free_pro.php:31
+msgid "Buy Now"
+msgstr "Kup teď"
+
+#: lib/welcome/sections/free_pro.php:34
+msgid "Theme Documentation"
+msgstr "Dokumentace šablony"
+
+#: lib/welcome/sections/free_pro.php:36 lib/welcome/sections/free_pro.php:37
+msgid "Docs"
+msgstr "Dokumety"
+
+#: lib/welcome/sections/free_pro.php:40
+msgid "Responsive Layout"
+msgstr "Responzivní zobrazení"
+
+#: lib/welcome/sections/free_pro.php:44
+msgid "SEO Optimized"
+msgstr "SEO Optimalizace"
+
+#: lib/welcome/sections/free_pro.php:48
+msgid "Translation Ready"
+msgstr "Podpora lokalizace"
+
+#: lib/welcome/sections/free_pro.php:52
+msgid "Theme Options"
+msgstr "Nastavení šablony"
+
+#: lib/welcome/sections/free_pro.php:56
+msgid "Wishlist support"
+msgstr "Podpora přání"
+
+#: lib/welcome/sections/free_pro.php:60
+msgid "Homepage Styles"
+msgstr "Styly domovské stránky"
+
+#: lib/welcome/sections/free_pro.php:61
+msgid "Fullwidth"
+msgstr "Plná šířka"
+
+#: lib/welcome/sections/free_pro.php:61
+msgid "Fullwidth/With sidebar (left or right)"
+msgstr "Plná šířka / S postranním panelem (vlevo nebo vpravo)"
+
+#: lib/welcome/sections/free_pro.php:64
+msgid "Left / Right Sidebar"
+msgstr "Postranní panel vlevo / vpravo"
+
+#: lib/welcome/sections/free_pro.php:68
+msgid "Menu Position"
+msgstr "Pozice menu"
+
+#: lib/welcome/sections/free_pro.php:69
+msgid "Left"
+msgstr "Vlevo"
+
+#: lib/welcome/sections/free_pro.php:69
+msgid "Left / Center"
+msgstr "Vlevo / střed"
+
+#: lib/welcome/sections/free_pro.php:72
+msgid "Header Styles"
+msgstr "Styly záhlaví"
+
+#: lib/welcome/sections/free_pro.php:73 lib/welcome/sections/free_pro.php:77
+#: lib/welcome/sections/free_pro.php:81 lib/welcome/sections/free_pro.php:85
+msgid "1"
+msgstr "1"
+
+#: lib/welcome/sections/free_pro.php:73
+msgid "4"
+msgstr "4"
+
+#: lib/welcome/sections/free_pro.php:76
+msgid "Product Styles"
+msgstr "Styly produktů"
+
+#: lib/welcome/sections/free_pro.php:77 lib/welcome/sections/free_pro.php:81
+#: lib/welcome/sections/free_pro.php:85
+msgid "3"
+msgstr "3"
+
+#: lib/welcome/sections/free_pro.php:80
+msgid "Main Menu Styles"
+msgstr "Styly hlavního menu"
+
+#: lib/welcome/sections/free_pro.php:84
+msgid "Product Button Styles"
+msgstr "Styly tlačítek produktů"
+
+#: lib/welcome/sections/free_pro.php:88
+msgid "Custom Background"
+msgstr "Vlastní pozadí"
+
+#: lib/welcome/sections/free_pro.php:92
+msgid "Mega Menu Support"
+msgstr "Mega menu podpora"
+
+#: lib/welcome/sections/free_pro.php:96
+msgid "Sales Offer Countdown"
+msgstr "Odpočítávání slevy"
+
+#: lib/welcome/sections/free_pro.php:100
+msgid "Shortcodes generator"
+msgstr "Generátor zkratek"
+
+#: lib/welcome/sections/free_pro.php:104
+msgid "Shortcodes"
+msgstr "Zkratky (Shortcodes)"
+
+#: lib/welcome/sections/free_pro.php:105
+msgid "All WooCommerce"
+msgstr "Veškeré WooCommerce"
+
+#: lib/welcome/sections/free_pro.php:105
+msgid "All WooCommerce & 20+ custom"
+msgstr "Veškeré WooCommerce & 20+ vlastních"
+
+#: lib/welcome/sections/free_pro.php:108
+msgid "Sticky Menu"
+msgstr "Plovoucí menu"
+
+#: lib/welcome/sections/free_pro.php:112
+msgid "Ajax Serach support"
+msgstr "Podpora ajax vyhledání"
+
+#: lib/welcome/sections/free_pro.php:116
+msgid "Product Image Flipper"
+msgstr "Otáčení obrázků produktu"
+
+#: lib/welcome/sections/free_pro.php:120
+msgid "Unlimited custom tabs"
+msgstr "Neomezené vlastní záložky"
+
+#: lib/welcome/sections/free_pro.php:124
+msgid "Unlimited custom help boxes"
+msgstr "Neomezené vlastní pomocné boxy"
+
+#: lib/welcome/sections/free_pro.php:128
+msgid "Unlimited Colors"
+msgstr "Neomezené barvy"
+
+#: lib/welcome/sections/free_pro.php:132
+msgid "Google Fonts"
+msgstr "Google fonty"
+
+#: lib/welcome/sections/free_pro.php:136
+msgid "Contact Form 7 support"
+msgstr "Podpora pluginu Contact Form 7"
+
+#: lib/welcome/sections/free_pro.php:140
+msgid "MailPoet Newsletters support"
+msgstr "Podpora MailPoet zpravodaje"
+
+#: lib/welcome/sections/free_pro.php:144
+msgid "Custom CSS"
+msgstr "Vlastní CSS"
+
+#: lib/welcome/sections/free_pro.php:148
+msgid "Custom Footer Credits"
+msgstr "Vlastní odkaz v zápatí"
+
+#: lib/welcome/sections/free_pro.php:152
+msgid "Updates & Support"
+msgstr "Aktualizace & Podpora"
+
+#: lib/welcome/sections/free_pro.php:153
+msgid "12 months"
+msgstr "12 měsíců"
+
+#: lib/welcome/sections/getting-started.php:13
+#, php-format
+msgid "Welcome to %s!"
+msgstr "Vítejte v šabloně %s!"
+
+#: lib/welcome/sections/getting-started.php:16
+#, php-format
+msgid "A child theme of %s."
+msgstr "Dceřiná šablona (child theme) šablony %s."
+
+#: lib/welcome/sections/getting-started.php:19
+msgid ""
+"Our elegant and professional WooCommerce theme, which turns your Wordpress "
+"to awesome eCommerce site."
+msgstr ""
+"Naše elegantní a profesionální WooCommerce šablona, která promění váš "
+"Wordpress v dokonalý eshop."
+
+#: lib/welcome/sections/getting-started.php:20
+#, php-format
+msgid ""
+"We want to make sure you have the best experience using %1s and that is why "
+"we gathered here all the necessary informations for you. We hope you will "
+"enjoy using %2s, as much as we enjoy creating great products."
+msgstr ""
+"Chceme si být jisti, že budete mít s používáním šablony %1s ty nejlepší "
+"zkušenosti, a to je důvod, proč jsme zde pro vás shromáždili všechny "
+"potřebné informace. Doufáme, že s šablonou %2s budete pracovat stejně rádi, "
+"jako my při její tvorbě."
+
+#: lib/welcome/sections/getting-started.php:28
+#: lib/welcome/welcome-screen.php:85
+msgid "Getting started"
+msgstr "Začínáme"
+
+#: lib/welcome/sections/getting-started.php:30
+msgid "Customize everything in a single place."
+msgstr "Přizpůsobte vše na jednom místě."
+
+#: lib/welcome/sections/getting-started.php:31
+msgid ""
+"Using the WordPress Customizer you can easily customize every aspect of the "
+"theme."
+msgstr ""
+"Pomocí WordPress Customizeru můžete jednoduše přizpůsobit kterýkoliv prvek "
+"šablony."
+
+#: lib/welcome/sections/getting-started.php:35
+msgid "Kirki is already activated"
+msgstr "Kirki je již aktivován"
+
+#: lib/welcome/sections/getting-started.php:48
+msgid "FAQ"
+msgstr "Nejčastější dotazy"
+
+#: lib/welcome/sections/getting-started.php:53
+msgid "Theme Setup - step by step"
+msgstr "Nastavení šablony (krok za krokem)"
+
+#: lib/welcome/sections/getting-started.php:54
+msgid ""
+"You can check our video tutorial how to setup the theme. This may help you "
+"to understand how the theme works and check if you miss something when you "
+"create your website."
+msgstr ""
+"Můžete si prohlédnout naše instruktážní video jak nastavit šablonu. To vám "
+"může pomoci pochopit, jak šablona funguje a zjistit zda vám něco neuniklo "
+"při vytváření vaší webové stránky."
+
+#: lib/welcome/sections/getting-started.php:55
+#: lib/welcome/sections/getting-started.php:68
+#: lib/welcome/sections/getting-started.php:74
+#: lib/welcome/sections/getting-started.php:82
+#: lib/welcome/sections/getting-started.php:89
+msgid "View how to do this"
+msgstr "Zobrazit návod (Anglicky)"
+
+#: lib/welcome/sections/getting-started.php:59
+msgid "Video tutorial on YouTube"
+msgstr "Výukové video na YouTube"
+
+#: lib/welcome/sections/getting-started.php:66
+msgid "Create unique homepage"
+msgstr "Vytvořte jedinečnou domovskou stránku"
+
+#: lib/welcome/sections/getting-started.php:67
+msgid ""
+"In the below documentation you will find an easy way to build an unique "
+"homepage design."
+msgstr ""
+"V níže uvedené dokumentaci najdete snadný způsob, jak vytvořit jedinečný "
+"design domovské stránky."
+
+#: lib/welcome/sections/getting-started.php:72
+msgid "Dummy products"
+msgstr "Fiktivní produkty"
+
+#: lib/welcome/sections/getting-started.php:73
+msgid ""
+"When the theme is first installed, you dont have any products probably. You "
+"can easily import dummy products with only few clicks."
+msgstr ""
+"Pokud je vaše šablona prvně nainstalována, pravděpodobně nemáte žádné "
+"produkty. Jednoduše můžete nainstalovat fiktivní produkty pomocí pár kliků."
+
+#: lib/welcome/sections/getting-started.php:80
+msgid "Using Shortcodes"
+msgstr "Používání zkratek (Shortcodes)"
+
+#: lib/welcome/sections/getting-started.php:81
+msgid ""
+"Shortcodes allow you to create Buy Now buttons, insert products into pages, "
+"display related products or featured products, and more."
+msgstr ""
+"Zkratky (Shortcodes) vám umožní vytvářet tlačítka nákupů, přidat produkty na "
+"stránky, zobrazit nejnovější produkty nebo doporučené produkty a mnohem více."
+
+#: lib/welcome/sections/getting-started.php:87
+msgid "Create a child theme"
+msgstr "Vytvořte si odvozenou šablonu"
+
+#: lib/welcome/sections/getting-started.php:88
+msgid ""
+"If you want to make changes to the theme's files, those changes are likely "
+"to be overwritten when you next update the theme. In order to prevent that "
+"from happening, you need to create a child theme. For this, please follow "
+"the documentation below."
+msgstr ""
+"Pokud budete chtít provést změny v souborech šablony, tyto změny budou "
+"přepsány během následující aktualizace šablony. Aby se tak nestalo, je třeba "
+"vytvořit odvozenou šablonu. Pro tento účel, si přečtěte návod níže."
+
+#: lib/welcome/sections/getting-started.php:100
+msgid "View full documentation"
+msgstr "Zobrazit kompletní dokumentaci (Anglicky)"
+
+#: lib/welcome/sections/getting-started.php:101
+#, php-format
+msgid ""
+"Need more details? Please check our full documentation for detailed "
+"information on how to use %s."
+msgstr ""
+"Potřebujete více informací? Pročtěte si naši kompletní dokumentaci (v "
+"angličtině), pro podrobné informace o tom, jak používat %s."
+
+#: lib/welcome/sections/getting-started.php:102
+msgid "Read full documentation"
+msgstr "Zobrazit kompletní dokumentaci (Anglicky)"
+
+#: lib/welcome/sections/getting-started.php:109
+msgid "Recommended plugins"
+msgstr "Doporučené pluginy"
+
+#: lib/welcome/sections/getting-started.php:114
+msgid "Kirki Toolkit"
+msgstr "Kirki (Správa šablony)"
+
+#: lib/welcome/sections/getting-started.php:117
+#: lib/welcome/sections/getting-started.php:128
+#: lib/welcome/sections/getting-started.php:139
+#: lib/welcome/sections/getting-started.php:153
+#: lib/welcome/sections/getting-started.php:164
+msgid "Already activated"
+msgstr "Již aktivováno"
+
+#: lib/welcome/sections/getting-started.php:126
+msgid ""
+"WooCommerce is a free eCommerce plugin that allows you to sell anything, "
+"beautifully. "
+msgstr ""
+"WooCommerce je eCommerce plugin zdarma, který vám umožní prodat cokoliv a "
+"krásně."
+
+#: lib/welcome/sections/getting-started.php:136
+msgid "CMB2"
+msgstr "CMB2"
+
+#: lib/welcome/sections/getting-started.php:137
+msgid "Homepage template options."
+msgstr "Nastavení šablony domovské stránky."
+
+#: lib/welcome/sections/getting-started.php:141
+msgid "Install CMB2"
+msgstr "Nainstalovat CMB2"
+
+#: lib/welcome/sections/getting-started.php:150
+msgid "YITH WooCommerce Wishlist"
+msgstr "YITH WooCommerce Wishlist"
+
+#: lib/welcome/sections/getting-started.php:151
+msgid ""
+"Offer to your visitors a chance to add the products of your woocommerce "
+"store to a wishlist page"
+msgstr ""
+"Nabídne vašim návštěvníkům možnost přidat produkty vašeho woocommerce "
+"obchodu na stránku přání"
+
+#: lib/welcome/sections/getting-started.php:155
+msgid "Install YITH WooCommerce Wishlist"
+msgstr "Nainstalovat YITH WooCommerce Wishlist"
+
+#: lib/welcome/sections/getting-started.php:161
+msgid "WooCommerce Shortcodes"
+msgstr "WooCommerce zkratky"
+
+#: lib/welcome/sections/getting-started.php:162
+msgid ""
+"This plugin provides a TinyMCE dropdown button for you use all WooCommerce "
+"shortcodes."
+msgstr ""
+"Tento modul přidá do TinyMCE editoru tlačítko s rozbalovacím seznamem všech "
+"zkratek (Shortcodes) WooCommerce."
+
+#: lib/welcome/sections/getting-started.php:166
+msgid "Install WooCommerce Shortcodes"
+msgstr "Nainstalovat WooCommerce Shortcodes"
+
+#: lib/welcome/sections/support.php:9
+msgid "Need more details?"
+msgstr "Potřebujete více informací?"
+
+#: lib/welcome/sections/support.php:11
+#, php-format
+msgid ""
+"Please check our full documentation for detailed information on how to use "
+"%s."
+msgstr ""
+"Pročtěte si naši kompletní dokumentaci (v angličtině), pro podrobné "
+"informace o tom, jak používat %s."
+
+#: lib/welcome/sections/support.php:14
+#, php-format
+msgid "%s documentation"
+msgstr "%s dokumentace"
+
+#: lib/welcome/sections/woo-themes.php:14
+msgid "Get a whole new look for your site"
+msgstr "Získejte zcela nový vzhled pro svůj web"
+
+#: lib/welcome/sections/woo-themes.php:16
+msgid ""
+"Below you will find a selection of our free WooCommerce themes that will "
+"totally transform the look of your site."
+msgstr ""
+"Níže naleznete výběr našich WooCommerce šablon zdarma, které zcela změní "
+"vzhled vašeho webu."
+
+#: lib/welcome/sections/woo-themes.php:26
+#: lib/welcome/sections/woo-themes.php:49
+#: lib/welcome/sections/woo-themes.php:77
+#: lib/welcome/sections/woo-themes.php:100
+#, php-format
+msgid "%s Theme"
+msgstr "%s šablona"
+
+#: lib/welcome/sections/woo-themes.php:32
+#: lib/welcome/sections/woo-themes.php:55
+#: lib/welcome/sections/woo-themes.php:83
+#: lib/welcome/sections/woo-themes.php:106
+#, php-format
+msgid "Install %s now"
+msgstr "Nainstalovat %s nyní"
+
+#: lib/welcome/sections/woo-themes.php:33
+#: lib/welcome/sections/woo-themes.php:56
+#: lib/welcome/sections/woo-themes.php:84
+#: lib/welcome/sections/woo-themes.php:107
+msgid "Live Preview"
+msgstr "Živý náhled"
+
+#: lib/welcome/sections/woo-themes.php:38
+#: lib/welcome/sections/woo-themes.php:61
+#: lib/welcome/sections/woo-themes.php:89
+#: lib/welcome/sections/woo-themes.php:112
+msgid "Current theme"
+msgstr "Aktuální šablona"
+
+#: lib/welcome/sections/woo-themes.php:39
+#: lib/welcome/sections/woo-themes.php:62
+#: lib/welcome/sections/woo-themes.php:90
+#: lib/welcome/sections/woo-themes.php:113
+msgid "Customize"
+msgstr "Přizpůsobit"
+
+#: lib/welcome/welcome-screen.php:61
+#, php-format
+msgid "About %s"
+msgstr "O %s"
+
+#: lib/welcome/welcome-screen.php:86
+msgid "Actions recommended"
+msgstr "Doporučené akce"
+
+#: lib/welcome/welcome-screen.php:87
+msgid "Contribute"
+msgstr "Přispět"
+
+#: lib/welcome/welcome-screen.php:89
+msgid "Free VS PRO"
+msgstr "Zdarma VS PRO"
+
+#: lib/welcome/welcome-screen.php:90
+msgid "Woo Themes"
+msgstr "Woo šablony"
+
+#: lib/wp_bootstrap_navwalker.php:188
+msgid "Add a menu"
+msgstr "Přidat menu"
+
+#: template-part-head.php:46
+msgid "My Account"
+msgstr "Můj účet"
+
+#: template-part-head.php:48
+msgid "Login / Register"
+msgstr "Přihlášení / Registrace"
+
+#: template-part-head.php:65
+msgid "Toggle navigation"
+msgstr "Rozbalovací navigace"
+
+#: template-part-postauthor.php:4
+msgid "About The Author"
+msgstr "O autorovi"
+
+#: template-part-postmeta.php:6
+msgid "Edit"
+msgstr "Upravit"
+
+#: template-part-related.php:16
+msgid "Related posts"
+msgstr "Podobné příspěvky"
+
+#: template-part-searchbar.php:5
+msgid "Shop by category"
+msgstr "Produkty dle kategorie"
+
+#: template-part-searchbar.php:25
+msgid "Search"
+msgstr "Hledat"
+
+#: template-part-searchbar.php:29
+msgid "All"
+msgstr "Vše"
+
+#: template-part-searchbar.php:42
+msgid "Search for products"
+msgstr "Hledejte produkty..."
+
+#: template-part-searchbar.php:43
+msgid "Go"
+msgstr "Hledat"
+
+#: template-part-searchbar.php:49
+msgid "Follow Us"
+msgstr "Sledujte nás"
+
+#: template-parts/demo-home-cats.php:5
+msgid "View More"
+msgstr "Zobrazit více"
+
+#: template-parts/demo-layout-one.php:2 template-parts/demo-layout-two.php:2
+msgid "Our categories"
+msgstr "Naše kategorie"
+
+#: template-parts/demo-layout-one.php:7 template-parts/demo-layout-two.php:10
+msgid "Recent products"
+msgstr "Nové produkty"
+
+#: template-parts/demo-layout-two.php:6
+msgid "Sale products"
+msgstr "Zlevněné produkty"
+
+#~ msgid ""
+#~ "The plugin is installed but not activated. Please <a href=\"%s\">activate "
+#~ "it</a>."
+#~ msgstr ""
+#~ "Plugin je nainstalován, ale není aktivován. Prosím, <a href=\"%s"
+#~ "\">aktivujte jej</a>."
+
+#~ msgid ""
+#~ "If you want to take full advantage of the options this theme has to "
+#~ "provide, please install the Kirki plugin."
+#~ msgstr ""
+#~ "Pokud chcete plně využívat možnosti této šablony, nainstalujte prosím "
+#~ "Kirki plugin."
+
+#~ msgid "Found a bug? Want to contribute with a fix or create a new feature?"
+#~ msgstr "Našli jste chybu? Chcete přispět s opravou nebo s novou funkcí?"
+
+#~ msgid "Support fourm is the place to go!"
+#~ msgstr "Fórum podpory je to nejlepší místo!"
+
+#~ msgid "%s support forum"
+#~ msgstr "%s fórum podpory"
+
+#~ msgid "Price"
+#~ msgstr "Cena"
+
+#~ msgid "Free"
+#~ msgstr "Zdarma"
+
+#~ msgid "Or would you like to contact us? Write on our support forum."
+#~ msgstr "Nebo byste nás chtěli kontaktovat? Napište nám na fórum podpory."
+
+#~ msgid "Support forum"
+#~ msgstr "Fórum podpory"
+
+#~ msgid "Copyright &copy; %1$s | MaxStore designed by %2$s"
+#~ msgstr "Copyright &copy; %1$s | MaxStore navrhl %2$s"
+
+#~ msgid "Home"
+#~ msgstr "Domů"
+
+#~ msgid "View all posts in %s"
+#~ msgstr "Zobrazit všechny příspěvky v %s"
+
+#~ msgid "Welcome to %1$s %2$s"
+#~ msgstr "Vítejte v %1$s %2$s"
+
+#~ msgid "Theme Info"
+#~ msgstr "Informace o šabloně"
+
+#~ msgid "Theme Links"
+#~ msgstr "Odkazy šablony"
+
+#~ msgid "Theme Page"
+#~ msgstr "Stránka šablony"
+
+#~ msgid "Rate this theme"
+#~ msgstr "Ohodnotit tuto šablonu"
+
+#~ msgid "Kirki (Theme options toolkit)"
+#~ msgstr "Kirki (Administrace šablony)"
+
+#~ msgid "Getting Started with %s"
+#~ msgstr "Začínáme s  %s"
+
+#~ msgid ""
+#~ "Do you need help to setup and configure this theme? We got you covered "
+#~ "with an extensive theme documentation on our website."
+#~ msgstr ""
+#~ "Potřebujete pomoct s nastavením této šablony? Připravili jsme pro Vás "
+#~ "rozsáhlou dokumentaci k této šabloně na našich stránkách."
+
+#~ msgid "View %s Documentation"
+#~ msgstr "Zobrazit %s dokumentaci"
+
+#~ msgid "Theme Setup"
+#~ msgstr "Nastavení šablony"
+
+#~ msgid "Homepage Setup"
+#~ msgstr "Nastavení domovské stránky"
+
+#~ msgid ""
+#~ "When the theme is first installed and WooCommerce plugin activated, the "
+#~ "demo mode would be turned on. This will display some sample/example "
+#~ "content to show you how the website can be possibly set up. When you are "
+#~ "comfortable with the theme options, you should turn this off. You can "
+#~ "create your own unique homepage."
+#~ msgstr ""
+#~ "Pokud je šablona prvně nainstalována a plugin WooCommerce aktivován, demo "
+#~ "mód je aktivován. Tím se zobrazí ukázka obsahu, jak může váš web vypadat. "
+#~ "Pokud jste s šablonou spokojeni můžete demo vypnout a můžete si vytvořit "
+#~ "vlastní unikátní domovskou stránku."
+
+#~ msgid "%s Homepage Setup"
+#~ msgstr "%s nastavení domovské stránky"
+
+#~ msgid ""
+#~ "%s makes use of the Customizer for all theme settings. First install "
+#~ "Kirki Toolkit and than click on \"Customize Theme\" to open the "
+#~ "Customizer."
+#~ msgstr ""
+#~ "%s používá Customizer pro všechna nastavení šablony. Nejprve nainstalujte "
+#~ "Kirki Toolkit a poté klikněte na \"Upravit šablonu\" pro otevření "
+#~ "Customizeru."
+
+#~ msgid "Customize Theme"
+#~ msgstr "Upravit Šablonu"
+
+#~ msgid "Pro Version"
+#~ msgstr "Verze PRO"
+
+#~ msgid ""
+#~ "Purchase the Pro Version of %s to get additional features and advanced "
+#~ "customization options."
+#~ msgstr ""
+#~ "Zakupte PRO verzi šablony %s a získejte další vlastnosti a rozšířené "
+#~ "možnosti úprav."
+
+#~ msgid "Unlimited colors"
+#~ msgstr "Neomezené barvy"
+
+#~ msgid "600+ Google fonts"
+#~ msgstr "600 + Google fontů"
+
+#~ msgid "Sticky menu"
+#~ msgstr "Plovoucí menu"
+
+#~ msgid "More homepage blocks"
+#~ msgstr "Více bloků domovské stránky"
+
+#~ msgid "Slider and Carousel"
+#~ msgstr "Slider a carousel"
+
+#~ msgid "And much more..."
+#~ msgstr "A mnoho dalšího..."
+
+#~ msgid "Learn more about %s Pro"
+#~ msgstr "Přečtěte si více o %s PRO"
+
+#~ msgid ""
+#~ "%1$s is proudly brought to you by %2$s. If you like this theme, %3$s :)"
+#~ msgstr "%1$s vám hrdě přináší %2$s. Pokud se vám tato šablony líbí, %3$s :)"
+
+#~ msgid "rate it"
+#~ msgstr "ohodnoťte ji"
+
+#~ msgid "Permalink to %s"
+#~ msgstr "Trvalý odkaz pro %s"
+
+#~ msgid "Copyright &copy; %1$s | MaxStore by %2$s"
+#~ msgstr "Copyright © %1$s | MaxStore od %2$s"
+
+#~ msgid "Footer Menu"
+#~ msgstr "Patička menu"
+
+#~ msgid "Homepage Sidebar"
+#~ msgstr "Postranní panel hlavní strany"
+
+#~ msgid "Top Bar Section"
+#~ msgstr "Sekce horního panelu"
+
+#~ msgid "Top Bar section for language or currency switcher. Use carefully!"
+#~ msgstr ""
+#~ "Secke horního panelu pro jazykový nebo měnový přepínač. Užívejte opatrně!"
+
+#~ msgid "Set the parent_slug config variable instead."
+#~ msgstr "Doporučujeme nastavit konfigurační proměnnou parent_slug."
+
+#~ msgid "Offer till "
+#~ msgstr "Nabídka do"
+
+#~ msgid "days"
+#~ msgstr "dny"
+
+#~ msgid "hours"
+#~ msgstr "hodin"
+
+#~ msgid "minutes"
+#~ msgstr "minut"
+
+#~ msgid "seconds"
+#~ msgstr "vteřin"
+
+#~ msgid "Carousel category"
+#~ msgstr "Kategorie carouselu"
+
+#~ msgid "Category"
+#~ msgstr "Rubrika"
+
+#~ msgid "Select category"
+#~ msgstr "Vybrat kategorii"
+
+#~ msgid "Slider position"
+#~ msgstr "Pozice slideru"
+
+#~ msgid ""
+#~ "Enable or disable slider and select the sidebar position (only if "
+#~ "selected)."
+#~ msgstr ""
+#~ "Povolit nebo zakázat slider a vyberte umístění postranního panelu (pouze "
+#~ "je-li vybráno)."
+
+#~ msgid "Slider with sidebar"
+#~ msgstr "Slider se sidebarem"
+
+#~ msgid "Generate slider"
+#~ msgstr "Generovat slider"
+
+#~ msgid "Slide {#}"
+#~ msgstr "Slajd {#}"
+
+#~ msgid "Add another slide"
+#~ msgstr "Přidat další slajd"
+
+#~ msgid "Remove slide"
+#~ msgstr "Odstranit slajd"
+
+#~ msgid "Image"
+#~ msgstr "Obrázek"
+
+#~ msgid "Ideal image size: 1140x488px"
+#~ msgstr "Ideální velikost obrázku: 1140x488px"
+
+#~ msgid "Slider Title"
+#~ msgstr "Titulek slideru"
+
+#~ msgid "Slider Description"
+#~ msgstr "Popisek slideru"
+
+#~ msgid "Button Text"
+#~ msgstr "Text tlačítka"
+
+#~ msgid "Tabs"
+#~ msgstr "Záložky"
+
+#~ msgid "Tab {#}"
+#~ msgstr "Záložka {#}"
+
+#~ msgid "Add Another Tab"
+#~ msgstr "Přidat další záložku"
+
+#~ msgid "Remove Tab"
+#~ msgstr "Odstranit záložku"
+
+#~ msgid "Tab Title"
+#~ msgstr "Název záložky"
+
+#~ msgid "Tab Content"
+#~ msgstr "Tab Content"
+
+#~ msgid "Tab Priority"
+#~ msgstr "Priorita záložky"
+
+#~ msgid "Define tab priority (0 = highest priority)"
+#~ msgstr "Definovat prioritu záložky (0 = nejvyšší priorita)"
+
+#~ msgid "Help boxes"
+#~ msgstr "Pomocné boxy"
+
+#~ msgid "Box {#}"
+#~ msgstr "Box {#}"
+
+#~ msgid "Add Another Box"
+#~ msgstr "Přidat další box"
+
+#~ msgid "Remove box"
+#~ msgstr "Odstranit box"
+
+#~ msgid "Box Icon"
+#~ msgstr "Ikona boxu"
+
+#~ msgid "Box Title"
+#~ msgstr "Titulek boxu"
+
+#~ msgid "Box Content"
+#~ msgstr "Obsah boxu"
+
+#~ msgid "Sidebar position"
+#~ msgstr "Pozice postranního panelu"
+
+#~ msgid "Right"
+#~ msgstr "Vpravo"
+
+#~ msgid "None"
+#~ msgstr "Žádný"
+
+#~ msgid " Products"
+#~ msgstr " Produktů"
+
+#~ msgid "Colors & Typography"
+#~ msgstr "Písma a barvy"
+
+#~ msgid "Custom Codes"
+#~ msgstr "Vlastní kódy"
+
+#~ msgid "Logo/Title Spacing"
+#~ msgstr "Umístění loga / titulku"
+
+#~ msgid "Header Style"
+#~ msgstr "Styl hlavičky"
+
+#~ msgid "Header Banner"
+#~ msgstr "Banner hlavičky"
+
+#~ msgid "Add your HTML code with your banner."
+#~ msgstr "Zde vložte váš HTML kód pro banner"
+
+#~ msgid "HTML code"
+#~ msgstr "HTML kód"
+
+#~ msgid "Enable or disable sticky menu"
+#~ msgstr "Povolit nebo zakázat plovoucí menu"
+
+#~ msgid "Menu alignment"
+#~ msgstr "Zarovnání menu"
+
+#~ msgid "Define menu alignment"
+#~ msgstr "Definovat zarovnání menu"
+
+#~ msgid "Center"
+#~ msgstr "Na střed"
+
+#~ msgid "Menu style"
+#~ msgstr "Styl menu"
+
+#~ msgid "Default"
+#~ msgstr "Defaultní"
+
+#~ msgid "Boxed"
+#~ msgstr "Boxový"
+
+#~ msgid "Clean"
+#~ msgstr "Čistý"
+
+#~ msgid "Footer credits"
+#~ msgstr "Odkaz v zápatí"
+
+#~ msgid "You can add custom text or HTML code."
+#~ msgstr "Můžete přidat vlastní text nebo kód HTML."
+
+#~ msgid "Select categories for Shop by category section. Leave blank for all."
+#~ msgstr ""
+#~ "Vyberte kategorie pro sekci Produkty dle kategorie. Ponechte prázdné pro "
+#~ "všechny."
+
+#~ msgid "Enable or Disable the social icons"
+#~ msgstr "Zapněte nebo vypněte sociální ikony"
+
+#~ msgid "Follow Us Text"
+#~ msgstr "Text sekce Follow Us"
+
+#~ msgid "Insert your text before social icons."
+#~ msgstr "Vložte text před sociální ikony."
+
+#~ msgid "Leave blank to hide text. Use max 6 icons."
+#~ msgstr "Ponechte prázdné pro skrytí textu. Používejte maximální 6 ikon."
+
+#~ msgid "Main colors"
+#~ msgstr "Hlavní barvy"
+
+#~ msgid "Main color"
+#~ msgstr "Hlavní barevné schéma"
+
+#~ msgid "Main site color (links, buttons, carts...)"
+#~ msgstr "Hlavní barva stránky (odkazy, tlačítka, košík...)"
+
+#~ msgid "Hover color"
+#~ msgstr "Barva odkazů po najetí myší"
+
+#~ msgid "Hover color for links, buttons, carts..."
+#~ msgstr "Barva odkazů při najetí myši na odkazy, tlačítka, košík..."
+
+#~ msgid "Body color"
+#~ msgstr "Pozadí stránky"
+
+#~ msgid "Background color for pages and posts."
+#~ msgstr "Barva pozadí článků a stránek."
+
+#~ msgid "Footer widgets color"
+#~ msgstr "Barva widgetů zápatí"
+
+#~ msgid "Background color for footer widgets."
+#~ msgstr "Barva pozadí widgetů v zápatí."
+
+#~ msgid "Typography and font colors"
+#~ msgstr "Písma a barvy"
+
+#~ msgid "Site title font"
+#~ msgstr "Font titulku stránky"
+
+#~ msgid "Site description font"
+#~ msgstr "Font popisku stránky"
+
+#~ msgid "Text color"
+#~ msgstr "Barva textu"
+
+#~ msgid "Select the general text color used in the theme."
+#~ msgstr "Vyberte styl hlavního písma použitý v šabloně"
+
+#~ msgid "Site content font"
+#~ msgstr "Font písma stránky"
+
+#~ msgid "Buttons Styling"
+#~ msgstr "Styl tlačítek"
+
+#~ msgid "Select the products button styling"
+#~ msgstr "Zvolte styl tlačítek produktů"
+
+#~ msgid "Rounded"
+#~ msgstr "Zaoblený"
+
+#~ msgid "Hover Effect"
+#~ msgstr "Efekt po najetí myší na produkt"
+
+#~ msgid "Select the product hover effect."
+#~ msgstr "Zvolte efekt po najetí na produkt."
+
+#~ msgid "Shadow"
+#~ msgstr "Stín"
+
+#~ msgid "Product style"
+#~ msgstr "Styl produktu"
+
+#~ msgid "Select homepage/archive product style."
+#~ msgstr "Vyberte styl produků na hlavní stránce/archívu"
+
+#~ msgid "Style #1"
+#~ msgstr "Styl #1"
+
+#~ msgid "Style #2"
+#~ msgstr "Styl #2"
+
+#~ msgid "WooCommerce Product Image Flipper"
+#~ msgstr "Otáčení obrázků produktu"
+
+#~ msgid ""
+#~ "Adds a secondary image on product archives that is revealed on hover. "
+#~ "Perfect for displaying front/back shots of clothing and other products."
+#~ msgstr ""
+#~ "Přidá sekundární obrázek produktu který se zobrazí po najetí myší na "
+#~ "produkt. Ideální pro zobrazení přední/zadní strany oděvů a jiných výrobků."
+
+#~ msgid "Sale offer countdown"
+#~ msgstr "Odpočítávání slevy"
+
+#~ msgid "Enable or disable countdown for sale offer - globally."
+#~ msgstr "Povolit nebo zakázat odpočítávání slevy - globálně."
+
+#~ msgid "Product Meta"
+#~ msgstr "Meta produktu"
+
+#~ msgid "Select the products meta (SKU, Category, Tags) styling"
+#~ msgstr ""
+#~ "Vyberte styl meta popisku produktů (Katalogové číslo, kategorie, štítky)"
+
+#~ msgid "Inline"
+#~ msgstr "Řádkové prvky"
+
+#~ msgid "Block"
+#~ msgstr "Blok"
+
+#~ msgid "Tracking Code"
+#~ msgstr "Sledovací kód"
+
+#~ msgid "Paste your Google Analytics (or other) tracking code here."
+#~ msgstr "Vložte Váš Google Analytics kód (nebo jiný)."
+
+#~ msgid "Write your custom css."
+#~ msgstr "Vložte váš vlastní css kód"
+
+#~ msgid "Custom CSS Code"
+#~ msgstr "Vlastní CSS kód"
+
+#~ msgid "Theme Changelog"
+#~ msgstr "Seznam změn v šabloně"
+
+#~ msgid "%1$s is proudly brought to you by %2$s."
+#~ msgstr "%1$s Vám hrdě přináší %2$s."
+
+#~ msgid "Display latest posts or posts of specific category."
+#~ msgstr "Zobrazí poslední příspěvky nebo příspěvky dle kategoire."
+
+#~ msgid "MaxStore Posts"
+#~ msgstr "MaxStore příspěvky"
+
+#~ msgid "Title:"
+#~ msgstr "Titulek:"
+
+#~ msgid "Number of posts to display:"
+#~ msgstr "Počet zobrazených příspěvků"
+
+#~ msgid "Show latest Posts"
+#~ msgstr "Zobrazit poslední příspěvky"
+
+#~ msgid "Show posts from a category"
+#~ msgstr "Zobrazit příspěvky z kategorie"
+
+#~ msgid "MaxStore Menu Widget"
+#~ msgstr "MaxStore Menu Widget"
+
+#~ msgid "Add a WordPress custom menu in any widget area."
+#~ msgstr "Přidání vlastní WordPress menu do oblasti widgetů."
+
+#~ msgid "Choose menu"
+#~ msgstr "Zvolte menu"
+
+#~ msgid "Latest Posts"
+#~ msgstr "Poslední příspěvky"
+
+#~ msgid "Pages"
+#~ msgstr "Stránky"
+
+#~ msgid "Categories"
+#~ msgstr "Rubriky"
+
+#~ msgid "Archives"
+#~ msgstr "Archív"
+
+#~ msgid "Posts by Category"
+#~ msgstr "Příspěvky dle kategorie"
+
+#~ msgid "Products by Category"
+#~ msgstr "Produkty dle kategorie"

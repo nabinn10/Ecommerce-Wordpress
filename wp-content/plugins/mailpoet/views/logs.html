@@ -1,0 +1,22 @@
+<% extends 'layout.html' %>
+
+<% block content %>
+
+<div class="wrap">
+  <h1 class="mailpoet-h1">Logs</h1>
+
+  <div id="mailpoet_logs_container"></div>
+
+  <script type="text/javascript">
+    <% autoescape 'js' %>
+      var mailpoet_logs = <%= json_encode(logs) %>;
+      var mailpoet_logs_default_from = '<%= logs_default_from %>';
+    <% endautoescape %>
+  </script>
+</div>
+
+<%= localize({
+  'pageTitle': __('Logs'),
+}) %>
+
+<% endblock %>
